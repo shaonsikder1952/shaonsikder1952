@@ -38,10 +38,12 @@
 
 | Project | Description | Tech |
 |:---|:---|:---|
-| **Nyra** | Simulated human AI with emotional intelligence, evolving memory, sincerity detection | `Python` `FastAPI` `LLMs` |
-| **BBRewrite** | AI rewriting agent with context-aware precision | `Python` `OpenAI` `NLP` |
-| **Framic** | Premium media and cloud management app | `Flutter` `Supabase` |
-| **AI Extension** | Production Chrome extension with AI features and Google OAuth | `JS` `Chrome API` |
+| **Nyra** | Simulated human AI with emotional intelligence, evolving memory, and sincerity detection | `Python` `FastAPI` `LLMs` |
+| **MindGPT** | Human cloning via unique algorithms that evolve by following a subject throughout life | `Python` `PyTorch` `AI` |
+| **LegalMe** | AI-powered legal assistant tailored for the needs of international students | `Python` `FastAPI` `LLMs` |
+| **BBRewrite** | AI rewriting agent with context-aware precision and high fidelity output | `Python` `OpenAI` `NLP` |
+| **RagSafe** | RAG prevention community platform for students in Bangladesh | `Next.js` `Supabase` |
+| **Framic** | Premium media and cloud management application with high-performance storage | `Flutter` `Supabase` |
 
 <br/>
 
