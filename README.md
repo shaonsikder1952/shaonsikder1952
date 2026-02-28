@@ -64,8 +64,6 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,50:0d0d1a,100:000000&height=1&section=header"/>
-
 <h3 align="center">◈ Battle Record ◈</h3>
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=shaonsikder1952&hide_border=true&background=00000000&ring=6e40aa&fire=aaaaaa&currStreakLabel=888888&sideLabels=666666&currStreakNum=cccccc&sideNums=cccccc&dates=444444&stroke=1a1a2e)](https://streak-stats.demolab.com)
