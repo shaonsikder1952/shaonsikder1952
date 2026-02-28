@@ -22,19 +22,25 @@
 
 </div>
 
-<br/>
+<div align="center">
+  <img src="assets/divider.svg" width="100%"/>
+</div>
 
-## Stack
+<h2 align="center">⚔️ Armory ⚔️</h2>
 
 <div align="center">
+  <h4>Core Arsenal</h4>
   <img src="https://skillicons.dev/icons?i=py,js,ts,html,css,react,nextjs,flutter&theme=dark&perline=8"/>
-  <br/>
+  <br/><br/>
+  <h4>Foundation & Fortress</h4>
   <img src="https://skillicons.dev/icons?i=fastapi,pytorch,docker,postgres,supabase,firebase,git,vscode&theme=dark&perline=8"/>
 </div>
 
-<br/>
+<div align="center">
+  <img src="assets/divider.svg" width="100%"/>
+</div>
 
-## Projects
+<h2 align="center">🛡️ Creations 🛡️</h2>
 
 | Project | Description | Tech |
 |:---|:---|:---|
@@ -49,13 +55,15 @@
   <i>Note: Most projects listed are personal and reside in private repositories.</i>
 </p>
 
-<br/>
+<div align="center">
+  <img src="assets/divider.svg" width="100%"/>
+</div>
 
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,50:0d0d1a,100:000000&height=1&section=header"/>
 
-### ⚔️ Battle Record ⚔️
+<h3 align="center">⚔️ Battle Record ⚔️</h3>
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=shaonsikder1952&hide_border=true&background=00000000&ring=6e40aa&fire=aaaaaa&currStreakLabel=888888&sideLabels=666666&currStreakNum=cccccc&sideNums=cccccc&dates=444444&stroke=1a1a2e)](https://streak-stats.demolab.com)
 
@@ -65,9 +73,11 @@
 
 </div>
 
-<br/>
+<div align="center">
+  <img src="assets/divider.svg" width="100%"/>
+</div>
 
-## Contribution Snake
+<h2 align="center">📜 Contribution Snake 📜</h2>
 
 <div align="center">
 <picture>
@@ -88,5 +98,9 @@
 <br/>
 
 *"We are merely sophisticated meat dreaming of divinity, screaming at a God who never existed and wings we’ve replaced with machines. The stars don't witness heroes or villains; they only track brief flickers of heat on a cold rock, indifferent to the agony of a species that mistakes its own obsolescence for a legacy."*
+
+<br/>
+
+![Soul Counter](https://komarev.com/ghpvc/?username=shaonsikder1952&color=000000&style=for-the-badge&label=SOULS+WITNESSED)
 
 </div>
