@@ -1,0 +1,24 @@
+<svg width="900" height="30" viewBox="0 0 900 30" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes wingFlap {
+      0%, 100% { transform: scaleY(1); }
+      50% { transform: scaleY(0.92); }
+    }
+    .wing { animation: wingFlap 3s ease-in-out infinite; transform-origin: center; }
+  </style>
+  <!-- Left ornamental line -->
+  <line x1="100" y1="15" x2="410" y2="15" stroke="#333" stroke-width="0.5"/>
+  <!-- Center mythical wings ornament -->
+  <g class="wing" transform="translate(450, 15)">
+    <!-- Left wing feather -->
+    <path d="M-6,0 C-12,-6 -20,-4 -28,-8 C-20,-2 -12,-1 -6,0Z" fill="#555" opacity="0.8"/>
+    <path d="M-4,0 C-8,-4 -14,-3 -20,-5 C-14,-1 -8,0 -4,0Z" fill="#666" opacity="0.6"/>
+    <!-- Right wing feather -->
+    <path d="M6,0 C12,-6 20,-4 28,-8 C20,-2 12,-1 6,0Z" fill="#555" opacity="0.8"/>
+    <path d="M4,0 C8,-4 14,-3 20,-5 C14,-1 8,0 4,0Z" fill="#666" opacity="0.6"/>
+    <!-- Center dot -->
+    <circle r="2" fill="#888"/>
+  </g>
+  <!-- Right ornamental line -->
+  <line x1="490" y1="15" x2="800" y2="15" stroke="#333" stroke-width="0.5"/>
+</svg>

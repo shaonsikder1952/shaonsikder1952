@@ -1,0 +1,113 @@
+<svg width="900" height="450" viewBox="0 0 900 450" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <style>
+    @keyframes typing { from { width: 0 } to { width: 100% } }
+    @keyframes blink { 50% { opacity: 0 } }
+    @keyframes scanline { 0% { transform: translateY(-100%) } 100% { transform: translateY(100%) } }
+    @keyframes glow { 0%, 100% { text-shadow: 0 0 5px #58a6ff, 0 0 10px #58a6ff; } 50% { text-shadow: 0 0 15px #58a6ff, 0 0 20px #58a6ff; } }
+    @keyframes fadeIn { from { opacity: 0 } to { opacity: 1 } }
+    @keyframes float { 0%, 100% { transform: translateY(0) } 50% { transform: translateY(-10px) } }
+    
+    .terminal-text { 
+      font-family: 'JetBrains Mono', 'Fira Code', monospace; 
+      font-size: 14px; 
+      fill: #c9d1d9; 
+      white-space: pre;
+      overflow: hidden;
+      display: inline-block;
+    }
+    .prompt { fill: #58a6ff; font-weight: bold; }
+    .stat-label { fill: #8b949e; font-size: 12px; }
+    .stat-value { fill: #c991ff; font-size: 18px; font-weight: bold; }
+    .cursor { fill: #58a6ff; animation: blink 1s step-end infinite; }
+    .scanline { 
+      width: 100%; height: 2px; background: rgba(88, 166, 255, 0.1); 
+      position: absolute; animation: scanline 4s linear infinite; 
+    }
+    .line-1 { width: 0; animation: typing 1.5s steps(30) 0.5s forwards; overflow: hidden; }
+    .line-2 { width: 0; animation: typing 1.5s steps(30) 2s forwards; overflow: hidden; }
+    .line-3 { width: 0; animation: typing 1.5s steps(30) 3.5s forwards; overflow: hidden; }
+  </style>
+
+  <!-- Background Layer -->
+  <rect width="900" height="450" fill="#0d1117" />
+  
+  <!-- Hero Image with Masked Blend -->
+  <defs>
+    <linearGradient id="imageFade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:black; stop-opacity:1" />
+      <stop offset="40%" style="stop-color:black; stop-opacity:0.6" />
+      <stop offset="60%" style="stop-color:black; stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:black; stop-opacity:0" />
+    </linearGradient>
+    <mask id="heroMask">
+      <rect width="900" height="450" fill="url(#imageFade)" />
+    </mask>
+  </defs>
+
+  <!-- Note: We'll reference the hero.jpg. GitHub README usually requires full raw.githubusercontent URLs for SVGs to work well with images. -->
+  <!-- For now, we'll use a placeholder or assume the URL structure. -->
+  <image href="https://raw.githubusercontent.com/shaonsikder1952/shaonsikder1952/main/assets/hero.jpg" x="400" y="0" width="500" height="450" preserveAspectRatio="xMidYMid slice" opacity="0.8" />
+
+  <!-- Grid overlay -->
+  <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+    <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#58a6ff" stroke-width="0.5" stroke-opacity="0.1" />
+  </pattern>
+  <rect width="900" height="450" fill="url(#grid)" />
+
+  <!-- Terminal Window -->
+  <rect x="20" y="40" width="550" height="300" rx="10" ry="10" fill="#161b22" stroke="#30363d" stroke-width="2" />
+  
+  <!-- Terminal Header -->
+  <circle cx="45" cy="55" r="5" fill="#ff5f56" />
+  <circle cx="65" cy="55" r="5" fill="#ffbd2e" />
+  <circle cx="85" cy="55" r="5" fill="#27c93f" />
+  <text x="105" y="60" font-family="monospace" font-size="12" fill="#8b949e">shaon.terminal — zsh</text>
+
+  <!-- Animated Text Lines -->
+  <g transform="translate(40, 90)">
+    <text class="terminal-text"><tspan class="prompt">$ </tspan><tspan class="line-1">whoami</tspan></text>
+    <text y="20" class="terminal-text" fill="#3fb950" opacity="0" style="animation: fadeIn 0.1s 2s forwards">shaon_sikder (Full-Stack Dev &amp; AI Engineer)</text>
+    
+    <text y="50" class="terminal-text"><tspan class="prompt">$ </tspan><tspan class="line-2">ls projects/</tspan></text>
+    <text y="70" class="terminal-text" fill="#8b949e" opacity="0" style="animation: fadeIn 0.1s 3.5s forwards">Nyra  BBRewrite  Framic  AI-Extension</text>
+    
+    <text y="100" class="terminal-text"><tspan class="prompt">$ </tspan><tspan class="line-3">cat info.txt</tspan></text>
+    <text y="120" class="terminal-text" opacity="0" style="animation: fadeIn 0.1s 5s forwards">Building the future at the edge of AI.</text>
+    <text y="140" class="terminal-text" opacity="0" style="animation: fadeIn 0.1s 5s forwards">Current focus: Multi-agent orchestration.</text>
+    
+    <text y="170" class="terminal-text"><tspan class="prompt">$ </tspan><rect class="cursor" x="15" y="155" width="8" height="15" opacity="0" style="animation: fadeIn 0.1s 5s forwards" /></text>
+  </g>
+
+  <!-- Sidebar Stats -->
+  <g transform="translate(620, 100)">
+    <rect width="240" height="220" rx="15" ry="15" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    <text x="20" y="30" font-family="monospace" font-size="14" fill="#58a6ff" font-weight="bold">SYSTEM STATS</text>
+    
+    <g transform="translate(20, 60)">
+      <text class="stat-label">REPOS</text>
+      <text y="25" class="stat-value">0</text>
+    </g>
+    
+    <g transform="translate(130, 60)">
+      <text class="stat-label">STARS</text>
+      <text y="25" class="stat-value">0</text>
+    </g>
+    
+    <g transform="translate(20, 120)">
+      <text class="stat-label">COMMITS (YTD)</text>
+      <text y="25" class="stat-value">412</text>
+    </g>
+    
+    <g transform="translate(130, 120)">
+      <text class="stat-label">LEVEL</text>
+      <text y="25" class="stat-value">GOD_TIER</text>
+    </g>
+
+    <text x="20" y="190" font-family="monospace" font-size="10" fill="#3fb950" style="animation: blink 2s linear infinite">UPDATING LIVE...</text>
+  </g>
+
+  <!-- Name & Glow -->
+  <text x="450" y="410" text-anchor="middle" font-family="system-ui, sans-serif" font-size="42" font-weight="900" 
+        fill="#58a6ff" style="animation: glow 3s ease-in-out infinite">SHAON SIKDER</text>
+  
+</svg>

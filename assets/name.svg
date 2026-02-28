@@ -1,0 +1,53 @@
+<svg width="900" height="110" viewBox="0 0 900 110" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes glow {
+      0%, 100% { 
+        filter: drop-shadow(0 0 3px rgba(200, 200, 200, 0.4)) drop-shadow(0 0 6px rgba(180, 180, 180, 0.2));
+      }
+      50% { 
+        filter: drop-shadow(0 0 8px rgba(220, 220, 220, 0.6)) drop-shadow(0 0 16px rgba(200, 200, 200, 0.3));
+      }
+    }
+    @keyframes subtitleReveal {
+      from { opacity: 0; transform: translateY(6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .name {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      font-size: 46px;
+      font-weight: 800;
+      letter-spacing: 14px;
+      animation: glow 4s ease-in-out infinite;
+    }
+    .subtitle {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      font-size: 13px;
+      letter-spacing: 5px;
+      fill: #999;
+      animation: subtitleReveal 1.5s ease-out 0.5s both;
+    }
+  </style>
+
+  <defs>
+    <linearGradient id="ng" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d4d4d4">
+        <animate attributeName="stop-color" values="#d4d4d4;#f0f0f0;#d4d4d4" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#ffffff">
+        <animate attributeName="stop-color" values="#ffffff;#e0e0e0;#ffffff" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#d4d4d4">
+        <animate attributeName="stop-color" values="#d4d4d4;#f0f0f0;#d4d4d4" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+  </defs>
+
+  <!-- Name with elegant white/silver shimmer -->
+  <text class="name" x="450" y="48" text-anchor="middle" fill="url(#ng)">SHAON SIKDER</text>
+  
+  <!-- Thin decorative line -->
+  <line x1="330" y1="66" x2="570" y2="66" stroke="#444" stroke-width="0.5"/>
+
+  <!-- Subtitle -->
+  <text class="subtitle" x="450" y="90" text-anchor="middle">FULL-STACK DEVELOPER · AI ENGINEER</text>
+</svg>

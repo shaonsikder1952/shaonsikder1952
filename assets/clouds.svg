@@ -1,0 +1,50 @@
+<svg width="900" height="160" viewBox="0 0 900 160" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes drift1 { 0% { transform: translateX(0); opacity: 0.7; } 50% { opacity: 1; } 100% { transform: translateX(40px); opacity: 0.7; } }
+    @keyframes drift2 { 0% { transform: translateX(0); opacity: 0.5; } 50% { opacity: 0.85; } 100% { transform: translateX(-35px); opacity: 0.5; } }
+    @keyframes drift3 { 0% { transform: translateX(0); opacity: 0.4; } 50% { opacity: 0.7; } 100% { transform: translateX(25px); opacity: 0.4; } }
+    @keyframes rise { 0% { transform: translateY(0); } 50% { transform: translateY(-6px); } 100% { transform: translateY(0); } }
+    .c1 { animation: drift1 8s ease-in-out infinite alternate; }
+    .c2 { animation: drift2 10s ease-in-out infinite alternate; }
+    .c3 { animation: drift3 12s ease-in-out infinite alternate; }
+    .c4 { animation: drift1 9s ease-in-out 1s infinite alternate; }
+    .sm { animation: rise 6s ease-in-out infinite; }
+  </style>
+  <defs>
+    <radialGradient id="a" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#222" stop-opacity="0.9"/>
+      <stop offset="60%" stop-color="#333" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#222" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="b" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#111" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#222" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#111" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="f1"><feGaussianBlur stdDeviation="10"/></filter>
+    <filter id="f2"><feGaussianBlur stdDeviation="14"/></filter>
+    <filter id="f3"><feGaussianBlur stdDeviation="7"/></filter>
+  </defs>
+  <!-- NO background rect — fully transparent -->
+  <g class="c1" filter="url(#f2)">
+    <ellipse cx="200" cy="50" rx="200" ry="50" fill="url(#a)"/>
+    <ellipse cx="700" cy="65" rx="180" ry="45" fill="url(#b)"/>
+  </g>
+  <g class="c2" filter="url(#f1)">
+    <ellipse cx="450" cy="40" rx="260" ry="45" fill="url(#b)"/>
+    <ellipse cx="100" cy="80" rx="150" ry="35" fill="url(#a)"/>
+    <ellipse cx="800" cy="35" rx="160" ry="38" fill="url(#a)"/>
+  </g>
+  <g class="c3" filter="url(#f3)">
+    <ellipse cx="350" cy="90" rx="120" ry="25" fill="url(#b)"/>
+    <ellipse cx="550" cy="60" rx="100" ry="20" fill="url(#a)"/>
+  </g>
+  <g class="sm" filter="url(#f1)">
+    <ellipse cx="450" cy="130" rx="90" ry="30" fill="url(#b)"/>
+    <ellipse cx="370" cy="115" rx="65" ry="22" fill="url(#a)"/>
+    <ellipse cx="530" cy="120" rx="55" ry="18" fill="url(#a)"/>
+  </g>
+  <g class="c4" filter="url(#f2)">
+    <ellipse cx="300" cy="25" rx="170" ry="35" fill="url(#a)"/>
+  </g>
+</svg>
