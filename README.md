@@ -83,6 +83,6 @@
 
 <br/>
 
-*"The people who are crazy enough to think they can change the world are the ones who do."*
+*"We are merely sophisticated meat dreaming of divinity, screaming at a God who never existed and wings we’ve replaced with machines. The stars don't witness heroes or villains; they only track brief flickers of heat on a cold rock, indifferent to the agony of a species that mistakes its own obsolescence for a legacy."*
 
 </div>
