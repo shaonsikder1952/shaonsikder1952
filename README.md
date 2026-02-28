@@ -17,11 +17,25 @@
 
 *Building at the intersection of Artificial Intelligence and human experience.*
 
-◈ **Architecting Nyra** — A simulated human being with evolving emotional intelligence  
-◈ **AI Research** — Deep-diving into LLMs, autonomous agents, and emergent behaviors  
-◈ **Full-Spectrum Design** — From high-impact Chrome extensions to scalable full-stack ecosystems  
-◈ **Core Philosophy** — Iterate with speed, think with depth, and bypass traditional limits  
-◈ **Strategic Partner** — Open to high-impact collaborations, contracts, and moonshot ideas
+<br/>
+
+◈ **Architecting Nyra** : A simulated human being with evolving emotional intelligence
+
+<br/>
+
+◈ **AI Research** : Deep-diving into LLMs, autonomous agents, and emergent behaviors
+
+<br/>
+
+◈ **Full-Spectrum Design** : From high-impact Chrome extensions to scalable ecosystems
+
+<br/>
+
+◈ **Core Philosophy** : Iterate with speed, think with depth, and bypass limits
+
+<br/>
+
+◈ **Strategic Partner** : Open to high-impact collaborations and moonshot ideas
 
 </div>
 
