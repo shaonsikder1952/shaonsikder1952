@@ -46,7 +46,7 @@
 |:---|:---|:---|:---|:---|
 | **Nyra** | Simulated human AI with emotional intelligence and evolving memory | `Python` `FastAPI` | Solo Founder | `In Progress` |
 | **BBRewrite** | AI rewriting agent with context-aware precision | `Python` `OpenAI` | Solo Founder | [bbrewrite.live](https://bbrewrite.live) |
-| **LegalMe** | AI-powered legal assistant for international students | `Python` `FastAPI` | Solo Founder | `Shipped / Production-ready` |
+| **LegalMe** | AI-powered legal assistant for international students | `Python` `FastAPI` | Solo Founder | `Production-ready` |
 | **RagSafe** | RAG prevention community platform for students | `Next.js` `Supabase` | Solo Founder | `In Progress` |
 | **MindGPT** | Human cloning via unique algorithms that evolve throughout life | `Python` `PyTorch` | Solo Founder | `Archived` |
 | **Framic** | Premium media and cloud management application | `Flutter` `Supabase` | Co-founder | [Archived](https://farmic.io) – Co-founded, incubated, wound down after limited traction |
