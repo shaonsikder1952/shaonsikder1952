@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/angel.png" width="280"/>
+<img src="assets/angel.png" width="280"/><br/>
 <img src="assets/name.png" width="420" alt="Shaon Sikder"/><br/>
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=13&duration=3000&pause=800&color=666666&center=true&vCenter=true&repeat=true&width=450&height=22&lines=Full-Stack+Developer+%C2%B7+AI+Engineer+%C2%B7+Builder;Building+AI+that+feels+human;Ship+fast.+Think+deep.+Break+limits." alt="Subtitle" />
 <br/>

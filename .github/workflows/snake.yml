@@ -30,5 +30,7 @@ jobs:
         with:
           target_branch: output
           build_dir: dist
+          committer: Shaon Sikder <shaonsikder1952@gmail.com>
+          author: Shaon Sikder <shaonsikder1952@gmail.com>
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
