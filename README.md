@@ -51,9 +51,7 @@
 | **MindGPT** | Human cloning via unique algorithms that evolve throughout life | `Python` `PyTorch` | Solo Founder | `Archived` |
 | **Framic** | Premium media and cloud management application | `Flutter` `Supabase` | Co-founder | [Archived](https://farmic.io) – Co-founded, incubated, wound down after limited traction |
 
-<p align="center">
-  <i>Built end-to-end: product design, backend, frontend, and deployment.</i>
-</p>
+
 
 
 <p align="center">
