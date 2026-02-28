@@ -45,6 +45,10 @@
 | **RagSafe** | RAG prevention community platform for students in Bangladesh | `Next.js` `Supabase` |
 | **Framic** | Premium media and cloud management application with high-performance storage | `Flutter` `Supabase` |
 
+<p align="center">
+  <i>Note: Most projects listed are personal and reside in private repositories.</i>
+</p>
+
 <br/>
 
 <div align="center">
