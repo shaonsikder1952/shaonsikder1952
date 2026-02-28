@@ -42,14 +42,14 @@
 
 <h2 align="center">◈ Creations ◈</h2>
 
-| Project | Description | Tech |
-|:---|:---|:---|
-| **Nyra** | Simulated human AI with emotional intelligence, evolving memory, and sincerity detection | `Python` `FastAPI` `LLMs` |
-| **MindGPT** | Human cloning via unique algorithms that evolve by following a subject throughout life | `Python` `PyTorch` `AI` |
-| **LegalMe** | AI-powered legal assistant tailored for the needs of international students | `Python` `FastAPI` `LLMs` |
-| **BBRewrite** | AI rewriting agent with context-aware precision and high fidelity output | `Python` `OpenAI` `NLP` |
-| **RagSafe** | RAG prevention community platform for students in Bangladesh | `Next.js` `Supabase` |
-| **Framic** | Premium media and cloud management application with high-performance storage | `Flutter` `Supabase` |
+| Project | Description | Tech | Status |
+|:---|:---|:---|:---|
+| **Nyra** | Simulated human AI with emotional intelligence and evolving memory | `Python` `FastAPI` | `In Progress` |
+| **MindGPT** | Human cloning via unique algorithms that evolve throughout life | `Python` `PyTorch` | `Stopped` |
+| **LegalMe** | AI-powered legal assistant for international students | `Python` `FastAPI` | `Completed` |
+| **BBRewrite** | AI rewriting agent with context-aware precision | `Python` `OpenAI` | [bbrewrite.live](https://bbrewrite.live) |
+| **RagSafe** | RAG prevention community platform for students | `Next.js` `Supabase` | `In Progress` |
+| **Framic** | Premium media and cloud management application | `Flutter` `Supabase` | [farmic.io](https://farmic.io) |
 
 <p align="center">
   <i>Note: Most projects listed are personal and reside in private repositories.</i>
