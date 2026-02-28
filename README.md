@@ -56,12 +56,6 @@
 | **Framic** | Premium media and cloud management application | `Flutter` `Supabase` | Co-founder | [Archived](https://farmic.io) – Co-founded, incubated, wound down after limited customer traction |
 
 
-
-
-<p align="center">
-  <i>Note: Most projects listed are personal and reside in private repositories.</i>
-</p>
-
 <div align="center">
   <img src="assets/divider.svg" width="100%"/>
 </div>
