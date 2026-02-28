@@ -43,7 +43,8 @@
 <h2 align="center">◈ Creations ◈</h2>
 
 <p align="center">
-  <i>Shipped as founder ◈ Most code private for IP protection</i>
+  <i>Shipped as founder</i><br/>
+  <i>Most code private for IP protection</i>
 </p>
 
 | Project | Description | Tech | Role | Status |
