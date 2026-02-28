@@ -3,7 +3,6 @@
 <img src="assets/angel.png" width="280"/><br/>
 <img src="assets/name.png" width="420" alt="Shaon Sikder"/><br/>
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=13&duration=3000&pause=800&color=666666&center=true&vCenter=true&repeat=true&width=450&height=22&lines=Full-Stack+Developer+%C2%B7+AI+Engineer+%C2%B7+Builder;Building+AI+that+feels+human;Ship+fast.+Think+deep.+Break+limits." alt="Subtitle" />
-<br/>
 
 <a href="https://www.linkedin.com/in/shaonsikder/"><img src="https://img.shields.io/badge/LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=fff"/></a>
 <a href="https://x.com/shaonsikder1971"><img src="https://img.shields.io/badge/X-000?style=for-the-badge&logo=x&logoColor=fff"/></a>
@@ -11,30 +10,14 @@
 
 </div>
 
-<br/>
-
 <div align="center">
 
 *Building at the intersection of Artificial Intelligence and human experience.*
 
-<br/>
-
-◈ **Architecting Nyra** : A simulated human being with evolving emotional intelligence
-
-<br/>
-
-◈ **AI Research** : Deep-diving into LLMs, autonomous agents, and emergent behaviors
-
-<br/>
-
-◈ **Full-Spectrum Design** : From high-impact Chrome extensions to scalable ecosystems
-
-<br/>
-
-◈ **Core Philosophy** : Iterate with speed, think with depth, and bypass limits
-
-<br/>
-
+◈ **Architecting Nyra** : A simulated human being with evolving emotional intelligence  
+◈ **AI Research** : Deep-diving into LLMs, autonomous agents, and emergent behaviors  
+◈ **Full-Spectrum Design** : From high-impact Chrome extensions to scalable ecosystems  
+◈ **Core Philosophy** : Iterate with speed, think with depth, and bypass limits  
 ◈ **Strategic Partner** : Open to high-impact collaborations and moonshot ideas
 
 </div>
