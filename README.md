@@ -13,13 +13,17 @@
 
 <br/>
 
-I build things at the intersection of AI and real human experience.
+<div align="center">
 
-◈ Currently building **Nyra**, an AI with emotional memory  
-◈ Obsessed with LLMs, AI agents, and emergent behavior  
-◈ From Chrome extensions to full-stack web and mobile  
-◈ Philosophy: **ship fast, think deep, break limits**  
-◈ Open to collabs, contracts, and wild ideas
+*Building at the intersection of Artificial Intelligence and human experience.*
+
+◈ **Architecting Nyra** — A simulated human being with evolving emotional intelligence  
+◈ **AI Research** — Deep-diving into LLMs, autonomous agents, and emergent behaviors  
+◈ **Full-Spectrum Design** — From high-impact Chrome extensions to scalable full-stack ecosystems  
+◈ **Core Philosophy** — Iterate with speed, think with depth, and bypass traditional limits  
+◈ **Strategic Partner** — Open to high-impact collaborations, contracts, and moonshot ideas
+
+</div>
 
 <br/>
 
