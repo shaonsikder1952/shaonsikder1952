@@ -42,6 +42,10 @@
 
 <h2 align="center">◈ Creations ◈</h2>
 
+<p align="center">
+  **Shipped as founder** (most code private for IP protection)
+</p>
+
 | Project | Description | Tech | Role | Status |
 |:---|:---|:---|:---|:---|
 | **Nyra** | Simulated human AI with emotional intelligence and evolving memory | `Python` `FastAPI` | Solo Founder | `In Progress` |
